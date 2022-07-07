@@ -1,0 +1,12 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 24vw;
+
+}
+.card_body {
+
+}
