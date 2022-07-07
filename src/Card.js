@@ -6,11 +6,11 @@ const Card = props => {
       <div className='card_body'>
         <h6>{ props.header }</h6>
         <hr />
-        <h5>{ props.title }</h5>
+        <h4>{ props.title }</h4>
         <p>{ props.description }</p> 
 
       </div>
-    </div>
+    </div> 
   )
 }
 
