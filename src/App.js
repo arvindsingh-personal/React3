@@ -4,6 +4,7 @@ import './App.css';
 import OddEvenButton from './OddEvenButton';
 import Counter from './Counter';
 import Countdown from './Countdown';
+import Stopwatch from './Stopwatch';
 // import Clock from './try2';
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <OddEvenButton />
       <Counter />
       <Countdown />
-{/* <Clock /> */}
+      <Stopwatch />
     </div>
   );
 }
