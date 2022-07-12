@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import DisplayCard from './DisplayCard';
+import Calculator from './Calculator';
 
 function App() {
   return (
     <div className="App">
-      <DisplayCard />
+      <Calculator />
     </div>
   );
 }
