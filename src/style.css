@@ -1,0 +1,21 @@
+#parent {
+   background-color: white;
+   padding-bottom: 50px;
+}
+#parent h1 {
+    color: rgb(67, 67, 137);
+    font-size: 7vw;
+}
+#parent div h1 {
+    color: rgb(18, 17, 17);
+}
+#parent div button {
+    margin: 10px;
+    font-size: 2vw;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#parent div button:hover {
+    background-color: black;
+    color: white;
+}
