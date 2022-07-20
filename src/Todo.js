@@ -43,7 +43,6 @@ export default class Todo extends Component {
     document.getElementById('Update1').style.display = 'block';
     let id = event.target.id;
     let editable_task = this.state.incomplete[id];
-    alert(editable_task);
     this.setState({
       newtask: editable_task,
       editable_task_id: id
@@ -53,8 +52,6 @@ export default class Todo extends Component {
   Update1 = (event) => {
     document.getElementById('Add').style.display = 'block';
     document.getElementById('Update1').style.display = 'none';
-    alert(this.state.newtask);
-    alert(this.state.editable_task_id);
     this.state.incomplete[this.state.editable_task_id] = this.state.newtask;
     this.setState({
       incomplete: this.state.incomplete,
@@ -66,7 +63,6 @@ export default class Todo extends Component {
   Check = (event) => {
 
     let id = event.target.parentElement.id
-    alert(id)
     let completed_tasks = this.state.incomplete[id]
     this.state.incomplete.splice(id, 1)
     this.setState({
@@ -88,7 +84,6 @@ export default class Todo extends Component {
     document.getElementById('Update2').style.display = 'block';
     let id = event.target.id;
     let editable_task = this.state.completed[id];
-    alert(editable_task);
     this.setState({
       newtask: editable_task,
       editable_task_id: id
@@ -98,8 +93,6 @@ export default class Todo extends Component {
   Update2 = (event) => {
     document.getElementById('Add').style.display = 'block';
     document.getElementById('Update2').style.display = 'none';
-    alert(this.state.newtask);
-    alert(this.state.editable_task_id);
     this.state.completed[this.state.editable_task_id] = this.state.newtask;
     this.setState({
       completed: this.state.completed,
